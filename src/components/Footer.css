@@ -1,0 +1,13 @@
+.main-footer {
+    color: white;
+    background-color: blue;
+    padding-top: 5em;
+    position: relative;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+​
+  li{
+    font-size: 25px;
+    text-align: center;
+  }

@@ -1,0 +1,253 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input[type=text], select {
+  border-radius: 50px;
+  margin: 10px;
+  background-color: white;
+  padding: 30px;
+  display:inline-block ;
+  margin-top: 20px;
+  width: 700px;
+ 
+}
+
+.form{
+  display: block;
+  margin-top: 20px;
+  width: 800px;
+  
+}
+
+/* .login{
+ width: 100px;
+display: flex;
+justify-content: center;
+
+} */
+
+input[type=email], select {
+  border-radius: 50px;
+  margin: 20px;
+  background-color: white;
+  padding: 30px;
+  display:inline-block ;
+  margin-top: 10px;
+  width: 700px;
+}
+
+input[type=password], select {
+  border-radius: 50px;
+  margin: 10px;
+  background-color: white;
+  padding: 30px;
+  display:inline-block ;
+  margin-top: 20px;
+  width: 700px;
+}
+
+.signup{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.main{
+  background: linear-gradient(rgba(0, 0, 0, 0.2),
+   rgba(0, 0, 0, 0.2)), url("https://img.freepik.com/free-vector/meal-recipe-template-recipe-good-mood-whole-day-vector-illustration_1284-42015.jpg?size=626&ext=jpg") center/cover no-repeat;
+  min-height: calc(100vh - 16px);
+
+}
+
+.about{
+  text-align: center;
+  color: white;
+
+}
+
+.btn {
+margin-left: 170px;
+}
+#form-login{
+  margin-left: 500px;
+}
+
+#home{
+  margin-left: 900px;
+}
+
+#logo{
+  display: flex;
+  align-items: flex-start;
+  margin-top: -120px;
+   
+}
+
+#img2{
+  margin-left: 1570px;
+  margin-top: -280px;
+}
+
+#intro{
+  margin-left: 50px;
+  font-size: 30px;
+  text-align: center;
+ 
+}
+
+#save{
+  font-size: 50px;
+  margin-left: 20px;
+  margin-top: -380px;
+  text-align: center;
+  
+}
+
+#firstDiv{
+  background: hsla(0, 0%, 100%, 1);
+
+  background: linear-gradient(0deg, hsla(0, 0%, 100%, 1) 0%, hsla(111, 100%, 92%, 1) 100%);
+  
+  background: -moz-linear-gradient(0deg, hsla(0, 0%, 100%, 1) 0%, hsla(111, 100%, 92%, 1) 100%);
+  
+  background: -webkit-linear-gradient(0deg, hsla(0, 0%, 100%, 1) 0%, hsla(111, 100%, 92%, 1) 100%);
+}
+
+#secondDiv {
+  font-size: 25px;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 35px;
+  padding-top: 25px;
+  margin-top: -50px;
+  background: hsla(0, 0%, 100%, 1);
+
+  background: linear-gradient(0deg, hsla(0, 0%, 100%, 1) 0%, hsla(111, 100%, 92%, 1) 100%);
+  
+  background: -moz-linear-gradient(0deg, hsla(0, 0%, 100%, 1) 0%, hsla(111, 100%, 92%, 1) 100%);
+  
+  background: -webkit-linear-gradient(0deg, hsla(0, 0%, 100%, 1) 0%, hsla(111, 100%, 92%, 1) 100%);
+
+}  
+
+#secondDiv h1, p{
+  margin-left: 50px;
+  margin-top: 25px;
+  
+}
+
+#btn1{
+  width: 100px;
+  height: 100%;
+  user-select: text;
+  padding: 10px;
+  border: 0px;
+  vertical-align: baseline;
+  text-align: center;
+}
+
+#btn2{
+  width: 100px;
+  height: 100%;
+  user-select: text;
+  padding: 10px;
+  border:10px;
+  vertical-align: baseline;
+  text-align: center;
+}
+
+#img3{
+  margin-left: 100px;
+  margin-top: -10px;
+}
+
+#thirdDiv{
+  background: hsla(0, 0%, 100%, 1);
+
+  background: linear-gradient(0deg, hsla(0, 0%, 100%, 1) 0%, hsla(111, 100%, 92%, 1) 100%);
+  
+  background: -moz-linear-gradient(0deg, hsla(0, 0%, 100%, 1) 0%, hsla(111, 100%, 92%, 1) 100%);
+  
+  background: -webkit-linear-gradient(0deg, hsla(0, 0%, 100%, 1) 0%, hsla(111, 100%, 92%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#DEFFD8", GradientType=1 );
+
+padding-bottom: 100px;
+
+text-align: center;
+}
+
+#fourthDiv{
+  background: hsla(0, 0%, 100%, 1);
+
+  background: linear-gradient(0deg, hsla(0, 0%, 100%, 1) 0%, hsla(111, 100%, 92%, 1) 100%);
+  
+  background: -moz-linear-gradient(0deg, hsla(0, 0%, 100%, 1) 0%, hsla(111, 100%, 92%, 1) 100%);
+  
+  background: -webkit-linear-gradient(0deg, hsla(0, 0%, 100%, 1) 0%, hsla(111, 100%, 92%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#DEFFD8", GradientType=1 );
+
+padding-bottom: 100px;
+
+text-align: center;
+}
+#howItWorks h1{
+  text-align: center;
+  margin-top: 0px; 
+ 
+
+}
+
+#howItWorks2{
+  text-align: center;
+  margin-top: 40px;
+}
+
+#list1{
+  text-align: center;
+  margin-top: 50px;
+  vertical-align: middle;
+}
+.App{
+  background-image: "https://img.freepik.com/free-vector/meal-recipe-template-recipe-good-mood-whole-day-vector-illustration_1284-42015.jpg?size=626&ext=jpg";
+}
+
+.btn-log{
+  margin-left: 450px;
+}
